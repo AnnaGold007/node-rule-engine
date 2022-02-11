@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+    db:
+        image: 'mcr.microsoft.com/mssql/server'
+        environment:
+          - MSSQL_DB=db
+          - MSSQL_USER=user
+          - MSSQL_PASSWORD=password
+          - PORT=5000
+        ports:
+          - '5432:5432'
