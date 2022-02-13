@@ -6,14 +6,12 @@ API reterns information of the current state of the table in a Database.
 In addition there is rule engine who analyzes the current status, raises alerts and makes recommendations for current tables. 
 
 App built with Node, Express and connects to MySQL database using MySQL2 client.
-
-<!-- Published with Heroku.
-
-[Try it](https://react-node-chat-project.netlify.app/) -->
+In project used localhost DB, ut will work with any MySQL Database just update dbconfig.js file to your database.
 
 Built this project to learn how to build and deploy a Node REST API.
 
-API to get all facts of the table 'courses' :
+API to get facts of the table. 
+Example table'courses' :
 
  `http://servername/facts?tableName=courses`
 
